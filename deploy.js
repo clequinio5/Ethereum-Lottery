@@ -3,13 +3,11 @@ const Web3 = require('web3');
 const {interface, bytecode} = require('./compile');
 const {mnemonic, apiUrl} = require('./credentials');
 
-console.log(mnemonic, apiUrl);
-
 const provider = new HDWalletProvider(
   mnemonic,
   apiUrl
 );
-/*
+
 const web3 = new Web3(provider);
 
 const deploy = async (done) => {
@@ -33,4 +31,3 @@ const deploy = async (done) => {
 };
 
 deploy();
-*/
