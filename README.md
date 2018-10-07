@@ -1,6 +1,7 @@
 # Ethereum Lottery
 **Contributors:** shaheer912  
 **Tags:** crypto, ethereum, ether, smart contracts, solidity, lottery
+
 **Requires at least:** Solidity ^0.4.0, Infura account, Node
 
 A really simple lottery application on ethereum
